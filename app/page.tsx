@@ -259,9 +259,11 @@ export default function SkullKingApp() {
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 p-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <div className="text-6xl mb-4">🏴‍☠️</div>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-2">Skull King</h1>
-            <p className="text-xl text-blue-200">Scorekeeper</p>
+            <p className="text-xl text-blue-200 mb-6">Scorekeeper</p>
+            <div className="mb-4 flex justify-center">
+              <img src="/cres-pirate.png" alt="Pirate Flag" className="h-48 w-48 object-contain rotate-0" />
+            </div>
           </div>
 
           <Card className="bg-white/10 backdrop-blur-sm border-white/20">
